@@ -1,22 +1,22 @@
 --type employe
-INSERT INTO type_employe values('t_emp'||nextval('type_employe_id'),'type1');
-INSERT INTO type_employe values('t_emp'||nextval('type_employe_id'),'type2');
+INSERT INTO type_employe values('t_emp'||nextval('type_employe_id'),'simple');
+INSERT INTO type_employe values('t_emp'||nextval('type_employe_id'),'responsable');
 
 --personne
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rakoto','Arisoa','1999-05-01','101251223045','andravoahangy','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Randria','kiady','1998-03-05','101251223045','androndra','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Randria','kiady','1998-03-05','101251223045','androndra','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rajao','Narivelo','1997-02-12','101251223045','ivandry','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Ravaka','Yurika','1998-02-25','101251223045','ampasanimalo','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Ravaka','Yurika','1998-02-25','101251223045','ampasanimalo','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Anja','Niony','1995-07-07','101251223045','andravoahangy','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Mandresy','Max','1998-03-05','101251223045','androndra','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Mandresy','Max','1998-03-05','101251223045','androndra','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rajao','Marie','1999-05-01','101251223045','ivandry','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Cassy','James','1998-03-05','101251223045','andoharanofotsy','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Cassy','James','1998-03-05','101251223045','andoharanofotsy','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rakoto','Bema','1999-05-01','101251223045','sabotsy','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rabe','Nandrasana','1998-03-05','101251223045','tanjombato','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rabe','Nandrasana','1998-03-05','101251223045','tanjombato','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Razafy','Ndrakoto','1997-02-12','101251223045','mandrimena','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Razafy','arisoa','1998-02-25','101251223045','besarety','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Razafy','arisoa','1998-02-25','101251223045','besarety','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Anthony','Niaina','1995-07-07','101251223045','isotry','t_emp1');
-INSERT INTO Personne values('pers'||nextval('Personne_id'),'Vahatra','Niaina','1998-03-05','101251223045','ampefiloha','t_emp2');
+INSERT INTO Personne values('pers'||nextval('Personne_id'),'Vahatra','Niaina','1998-03-05','101251223045','ampefiloha','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Rabe','Nanahary','1999-05-01','101251223045','andavamamba','t_emp1');
 INSERT INTO Personne values('pers'||nextval('Personne_id'),'Harder','James','1998-03-05','101251223045','67','t_emp2');
 
