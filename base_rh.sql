@@ -1,3 +1,16 @@
+CREATE SEQUENCE type_employe_id;
+CREATE SEQUENCE Personne_id;
+CREATE SEQUENCE login_id;
+CREATE SEQUENCE type_contrat_id;
+CREATE SEQUENCE Poste_id;
+CREATE SEQUENCE Contrat_id;
+CREATE SEQUENCE demande_avance_id;
+CREATE SEQUENCE avance_id;
+CREATE SEQUENCE Payement_salaire_id;
+CREATE SEQUENCE demande_conge_id;
+CREATE SEQUENCE conge_id;
+CREATE SEQUENCE indemnite_id;
+
 CREATE TABLE type_employe(
     id varchar(50) primary key,
     nom varchar(50)
