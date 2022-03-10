@@ -52,6 +52,7 @@ CREATE TABLE Contrat(
     id_type_contrat varchar(50),
     id_poste varchar(50),
     salaire double precision,
+    Date_debut_contrat date,
     duree int,
     isCurrent int,
     foreign key (id_personne) references Personne(id),

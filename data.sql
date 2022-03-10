@@ -52,22 +52,22 @@ INSERT INTO Poste values('poste'||nextval('poste_id'),'DGA');
 INSERT INTO Poste values('poste'||nextval('poste_id'),'DG');
 
 --Contrat
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers1','t_contrat1','poste1',200000,12,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers2','t_contrat2','poste1',200000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers3','t_contrat2','poste2',200000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers4','t_contrat2','poste3',2000000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers5','t_contrat1','poste4',2000000,24,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers6','t_contrat2','poste5',2000000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers7','t_contrat1','poste6',2000000,4,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers8','t_contrat1','poste1',200000,12,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers9','t_contrat2','poste1',200000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers10','t_contrat1','poste1',200000,12,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers12','t_contrat2','poste1',200000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers11','t_contrat1','poste1',200000,12,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers13','t_contrat2','poste1',200000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers14','t_contrat1','poste1',200000,12,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers15','t_contrat2','poste1',200000,0,0);
-INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers16','t_contrat1','poste1',200000,12,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers1','t_contrat1','poste1',200000,'2012-02-05',12,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers2','t_contrat2','poste1',200000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers3','t_contrat2','poste2',200000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers4','t_contrat2','poste3',2000000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers5','t_contrat1','poste4',2000000,'2012-02-05',24,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers6','t_contrat2','poste5',2000000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers7','t_contrat1','poste6',2000000,'2012-02-05',4,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers8','t_contrat1','poste1',200000,'2012-02-05',12,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers9','t_contrat2','poste1',200000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers10','t_contrat1','poste1',200000,'2012-02-05',12,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers12','t_contrat2','poste1',200000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers11','t_contrat1','poste1',200000,'2012-02-05',12,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers13','t_contrat2','poste1',200000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers14','t_contrat1','poste1',200000,'2012-02-05',12,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers15','t_contrat2','poste1',200000,'2012-02-05',0,0);
+INSERT INTO Contrat values('contrat'||nextval('contrat_id'),'pers16','t_contrat1','poste1',200000,'2012-02-05',12,0);
 
 
 --demande avance
