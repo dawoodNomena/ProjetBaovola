@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown open">
+        <a class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                    Dropdown
+                </a>
+        <div class="dropdown-menu" aria-labelledby="triggerId">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item disabled" href="#">Disabled action</a>
+        </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="" class="form-label">filtrer</label>
+      <select multiple class="form-select" name="" id="">
+            <option selected>Tout</option>
+            <option value="">CDD</option>
+            <option value="">CDI</option>
+            <option value="">Essai</option>
+        </select>
+    </div>
+
+    <form action="#" method="get"></form>
+        <div class="mb-3">
+            <label for="" class="form-label">filtrer</label>
+            <select class="form-select" name="filtre" id="">
+                <option selected>Tout</option>
+                <option value="">CDD</option>
+                <option value="">CDI</option>
+                <option value="">Essai</option>
+            </select>
+            <button type="submit">filtrer</button>
+        </div>
+    </form>
+    
+        <div class="form-check">
+            <input id="my-input" class="form-check-input" type="checkbox" name="" value="true">
+            <label for="my-input" class="form-check-label">Text</label>
+        </div>
+</body>
+</html>
